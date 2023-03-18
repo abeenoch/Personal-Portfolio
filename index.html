@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+</html>lang="en" 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="=viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abes's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="<script src="https://kit.fontawesome.com/1cfe6c9adf.js" crossorigin="anonymous"></script>"
+</head>
+<body>
+<div id="header" >
+    <div class="container">
+        <nav>
+            <img src="images/logo3.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Data science / Machine learning</p>
+            <h1>Hi, I'm <span>Abe Enoch<br> Aboluwarin</span></h1>
+        </div>
+    </div>
+</div>
+
+<!----------about------------------>
+
+<div id = "about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/logo.jpg">
+            </div>
+            <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Talented data science/ machine learning engineer with industrious and systematic approach to learning information. Open and clear worker with disciplined execution and methodical nature. Extensive knowledge of Data science with python/machine learning.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Science</span><br>Developing solutions using data tailored to meet an organisation's unique needs.</li>
+                            <li><span>Machine Learning</span><br>Design,test and impelment machine learning and deep learning systems.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>December,2022 - Current</span><br>Machine Learning Engineer at ALPHAWORLD.</li>
+                            <li><span>November,2022 - Current</span><br>Python/Machine learning dev at FUTO ML Research group.</li>
+                            <li><span>February,2022 - Current</span><br>FREELANCE Machine Learning Engineer.</li>
+                            <li><span>August,2021 - November,2021</span><br>Data Science Intern at HAMOYE AI</li>
+                            <li><span>August,2021 - December,2021</span><br>Networking/Automation Intern at NIMBLES ENGINEERING COMPANY.</li>
+                            <li><span>Jan,2020 - March,2020</span><br>Industrial Attachment at CONTROL SYSTEMS INTERNATIONAL</li> 
+                         </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017 - Current</span><br>Bsc. MECHANICAL ENGINEERING at OBAFEMI AWOLOWO UNIVERSITY .</li>
+                       </ul>
+                    </div>
+            </div>
+        </div>
+  </div>
+</div>
+
+
+
+
+
+<!---------------- services ---------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-titile">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-binary-circle-check"></i>
+                <h2>Data Science</h2>
+                <p>Working closely with your business to identify issues and use data to propose solutions for effective decision making. build algorithms and design experiments to merge, manage, interrogate and extract data to supply tailored reports to colleagues, customers or the wider organisation.</p>
+            </div>
+            <div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Machine learning</h2>
+                    <p>Designing and developing machine learning and deep learning systems. Running machine learning tests and experiments. Implementing appropriate ML algorithms.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------porftfolio works ------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.1.jfif">
+                <div class="layer">
+                    <h3>Electric Vehicles Price Prediction</h3>
+                    <p>The aim of this ML project was to predict EV prices based on various features. 
+                        My team scraped data from a website, cleaned & wrangled it, we did many iterations
+                        to finalize the ML model and ultimately we were able to deploy the same too. </p>
+                        <a href="a"><i class="fa-solid fa-up-right-from-square"></i>"</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/WORK-3.1.png">
+                <div class="layer">
+                    <h3>Telecomm Customer Churn</h3>
+                    <p>The aim of this ML project was to predict if a telecommunications customer would be a returning customer or not based on various features. 
+                        The data was provided, I cleaned & preprocessed it, i then went ahead to create the ml model after which i had to make lots of iterations to
+                        to finalize the ML model and  deployed it too. </p>
+                        <a href="a"><i class="fa-solid fa-up-right-from-square"></i>"</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jfif">
+                <div class="layer">
+                    <h3>Image Recognition Model</h3>
+                    <p>The aim of this project was to write a production scale functioning image recognition model that could be used to search for members of a social mdeia
+                        platform by using just their pictures. I was able to achieve this using a convolutional neural network. </p>
+                        <a href="a"><i class="fa-solid fa-up-right-from-square"></i>"</a>
+                </div>
+            </div>
+        </div>
+        <a href="a" class="btn">See more</a>
+    </div>
+</div>
+
+<!---------------------- contact-------------      -------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane-top"></i>abeenoch@yahoo.com</p><br>
+                <p><i class="fa-solid fa-phone"></i>07066607704</p><br>
+                <div class="social-icons">
+                    <a href="https://twitter.com/industryshark"><i  class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/abeenoch"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/enoch-abe-b223a118b/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Enoch's Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>   
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");    
+        }
+
+        for(tabcontent of tabcontents){
+            tablink.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+
+</script>
+
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";    
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";    
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzCFT2LGSTvIU_VPVuwywOC-U1jBJTNwWaDMWBs0I0Xv4_qNLLBaezfKgDvIFmkPOLkDw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+
+</body>
+</html>
